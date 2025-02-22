@@ -13,7 +13,7 @@ export default function Home() {
       } else {
         setResult(`Team: ${data.team.name}, Points: ${data.team.summary_overall_points}`);
       }
-    } catch (err) {
+    } catch {
       setResult('Error fetching data');
     }
   };
