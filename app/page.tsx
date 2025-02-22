@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from 'react';
 
 export default function Home() {
@@ -16,8 +18,8 @@ export default function Home() {
     } catch {
       setResult('Error fetching data');
     }
-  };
-
+  }; 
+  
   return (
     <div style={{ padding: '20px' }}>
       <h1>FPL Checker</h1>
